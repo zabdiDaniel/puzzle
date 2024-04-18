@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML5 Puzzle</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    
+    <div id="victoryMessage" style="display: none;">
+        ¡Felicidades, has completado el rompecabezas!
+    </div>
+
+    <div id="timer">Tiempo: 00:00</div>
+
+    <button id="restartButton">Reiniciar Puzzle</button>
+
+
+
+    
+    <canvas id="canvas"></canvas>
+    <br />
+    <label for="difficulty">Difficulty</label>
+    <input type="range" min="2" max="16" value="4" id="difficulty" />
+    <span id="difficultyValue">4x4</span> <!-- Elemento para mostrar la dificultad -->
+
+    
+
+
+
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
